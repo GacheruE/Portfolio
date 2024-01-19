@@ -115,3 +115,24 @@ footer {
 #resume{
     text-align: center;
 }
+
+#contact {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+#contact h2 {
+    margin-bottom: 20px;
+}
+
+#contact a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#contact img {
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+}
