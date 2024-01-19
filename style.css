@@ -39,20 +39,49 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-
-.slider-container {
-    overflow: hidden;
+#projects {
+    text-align: center;
 }
 
-.slider {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
+#projects h2 {
+    color: #333;
 }
 
 .slide {
     min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px; 
+    text-align: left;
+    font-weight: bold;
 }
 
+.slide img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; 
+}
+
+.slider-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1.5s ease-in-out;
+}
+
+.pic {
+    max-height: 400px; 
+    display: block;
+    width: 1200px;
+}
+
+.photos{
+    max-height: 1200px; 
+    display: block;
+    width: 1200px;
+}
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -76,10 +105,13 @@ footer {
     object-fit: cover;
 }
 
-#about{
+.background-container{
     background-image: url('asset/Backgrounds.jpg');
     background-size: cover;
-    background-position: right center; 
+    background-position: right; 
     background-repeat: no-repeat;
     padding: 100px;
+}
+#resume{
+    text-align: center;
 }
