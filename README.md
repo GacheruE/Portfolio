@@ -1,0 +1,1 @@
+This is a portfolio page showcasing my skills and projects. The portfolio is built using vanilla HTML, CSS, and JavaScript. The deployed version can be viewed here. https://gacherue.github.io/Portfolio/
